@@ -56,3 +56,6 @@ jobs:
 
     - name: deploy
       run: echo success
+
+    - name: deploy
+      run: ping -c 4 ipv6.im.lazysun.me
